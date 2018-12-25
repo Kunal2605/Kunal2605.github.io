@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 /*canvas {
   display: block;
   vertical-align: bottom;
 }*/
 
 /*#particles-js {
-=======
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-#particles-js {
->>>>>>> 142fe4bc7114a0fa10d5642760f772a9bb02f2b0
   width: 100%;
   height: 100vh;
   background-color: #000;
@@ -34,7 +25,6 @@ canvas {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 20px;
-<<<<<<< HEAD
 }*/
 
 #particles-js canvas{
@@ -45,6 +35,3 @@ canvas {
 }
 
 
-=======
-}
->>>>>>> 142fe4bc7114a0fa10d5642760f772a9bb02f2b0
