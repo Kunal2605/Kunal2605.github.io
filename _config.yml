@@ -1,2 +1,4 @@
 url: https://kunalsarna.me
 enforce_ssl: kunalsarna.me
+
+theme: jekyll-theme-minimal
