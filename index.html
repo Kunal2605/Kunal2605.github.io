@@ -1,520 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
+<head>
     <meta charset="utf-8">
-    <link rel="canonical" href="kunalsarna.me"/>
-    <script type="text/javascript" src="./particles/particles.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="Portfolio of Kunal Sarna, a Salesforce and Project Engineer.">
+    <meta name="author" content="Kunal Sarna">
     <title>Kunal Sarna | Portfolio</title>
     
-	<link rel="SHORTCUT ICON" href="https://kunalsarna.me/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="favicon.ico" type="image/ico" />
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code&display=swap" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/modern.css">
+</head>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-
-  <body id="particles-js">
-   <script type="text/javascript">
-    particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 800,
-      "density": {
-        "enable": true,
-        "value_area": 6000
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 140,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
-
-
-/* ---- stats.js config ---- */
-
-	var count_particles, stats, update;
-	stats = new Stats;
-	stats.setMode(0);
-	stats.domElement.style.position = 'absolute';
-	stats.domElement.style.left = '0px';
-	stats.domElement.style.top = '0px';
-	document.body.appendChild(stats.domElement);
-	count_particles = document.querySelector('.js-count-particles');
-	update = function() {
-		stats.begin();
-		stats.end();
-		if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-			count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-		}
-		requestAnimationFrame(update);
-	};
-	requestAnimationFrame(update);
-</script>
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase"  id="mainNav" style="color: #1f5ba8">
-      <div class="container" >
-        <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>-->
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
-              </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-            
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact Me</a>
-              <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://www.linkedin.com/in/kunal-sarna-89099a118/" target="_blank">
-              <i class="fab fa-fw fa-linkedin-in"></i></a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://github.com/Kunal2605" target="_blank">
-              <i class="fab fa-fw fa-github"></i></a>
-            </li>
-            </li>
-          </ul>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">KS</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link"><span style="color: var(--accent-color)">01.</span> About</a>
+                <a href="#skills" class="nav-link"><span style="color: var(--accent-color)">02.</span> Skills</a>
+                <a href="#projects" class="nav-link"><span style="color: var(--accent-color)">03.</span> Projects</a>
+                <a href="#contact" class="nav-link"><span style="color: var(--accent-color)">04.</span> Contact</a>
+                <a href="https://drive.google.com/file/d/1aESmHPHoDgiKlQQrwRXL2e7Dd8pM2zsE/view?usp=sharing" target="_blank" class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Resume</a>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead text-black text-center text-white" style="background-color: #2c2f33" id="page-top">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.jpg" alt="" style="border-radius: 45%">
-        <h2 class="text-uppercase mb-0">Kunal Sarna</h2>
-        <hr class="star-light">
-        <h3 class="font-weight-light mb-0">Salesforce | Competitive Programming | Technical Enthusiast</h3>
-        <br>
-        <h4 class="font-weight-light mb-0">“Destiny is not a matter of chance, it is a matter of choice. It is not something to be waited for, but rather something to be achieved.”                            ---William Jennings Bryan</h4>
+    <!-- Hero Section -->
+    <section class="section hero">
+        <div class="container hero-content">
+            <span class="eyebrow">Hi, my name is</span>
+            <h1 class="big-heading">Kunal Sarna.</h1>
+            <h2 class="sub-heading">I build things for the web.</h2>
+            <p class="hero-text">
+                I'm a Project Engineer at Appirio Cloud Services and a technical enthusiast specializing in Salesforce, Java, and building exceptional digital experiences. "Destiny is not a matter of chance, it is a matter of choice."
+            </p>
+            <a href="mailto:sarnakunal10@gmail.com" class="btn">Get In Touch</a>
+        </div>
+    </section>
 
-      </div>
-    </header>
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto" >
-            <p class="lead" style="color: white">Hey, I'm Kunal sarna, I am currently working in Appirio Cloud Services as a Project Engineer. I try to work as hard as possible, and try to pursue the things that interest me.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead" >I always try to learn new things and read about new trends in technology, some of my favorite sites are Quora, Reddit, Recode etc.</p>
-          </div>
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"><span style="color: var(--accent-color); font-family: 'Fira Code', monospace; font-size: 1.5rem; margin-right: 10px;">01.</span>About Me</h2>
+            <div class="about-inner">
+                <div class="about-text">
+                    <p>Hello! My name is Kunal and I enjoy creating things that live on the internet. I am currently working at Appirio Cloud Services as a Project Engineer. I strive to work hard and pursue the things that interest me.</p>
+                    <p>I always try to learn new things and keep up with new trends in technology. Some of my favorite resources are Quora, Reddit, and Recode.</p>
+                    <p>Here are a few technologies I've been working with recently:</p>
+                    <ul class="skills-list">
+                        <li class="skill-item">Salesforce</li>
+                        <li class="skill-item">Java (SE/EE)</li>
+                        <li class="skill-item">HTML & CSS</li>
+                        <li class="skill-item">C / C++</li>
+                        <li class="skill-item">SQL</li>
+                        <li class="skill-item">Git</li>
+                    </ul>
+                </div>
+                <div class="profile-pic-wrapper">
+                    <img src="img/profile.jpg" alt="Kunal Sarna" class="profile-pic">
+                </div>
+            </div>
         </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/file/d/1aESmHPHoDgiKlQQrwRXL2e7Dd8pM2zsE/view?usp=sharing" target="_blank">
-            <i class="fas fa-download mr-2"></i>
-            Download Resume!
-          </a>
-        </div>
-      </div>
-    </section>
-    <section id="skills" style="padding: 50px 15px;">
-    <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Skills</h2>
-        <hr class="star-dark mb-5">
-        
-        <h3 style="
-     text-align: center;
-     
-     ">
-        	|| C || C++ || HTML || CSS || Bootstrap ||
-        </h3>
-        <br>
-        <h3 style="
-     text-align: center;
-     
-     ">
-        ||	XML || Salesforce || JAVA SE || JAVA EE ||
-        </h3>
-        <br>
-        <h3 style="
-     text-align: center;
-     
-     ">
-        	|| SQL || CRM || Git ||
-        </h3>
-    </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio bg-primary" id="projects">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white mb-0">Projects</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-         
-          <div class="col-md-6 col-lg-6" align="center">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-download fa-3x"></i>
-                  <p>Download apk</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/asha.png" title="Hospital">
-              <img class="img-fluid" src="img/portfolio/home.png" title="Hospital">
-              
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 text-white">
-                  <h3 align="center" >Hospital Application</h3>
-                  <p>The purpose of Appointment Scheduler & Manager application is to automatically schedule and manage patient’s appointments with a doctor of an organization by accessing their calendar in the user requested time and duration. This application would help both the doctors and patients to save their time. Managing delays and priority appointments is the primary aim of the application. This application is basically implemented in two interfaces: patient interface and doctor interface. Two main features of the application are scheduling and managing.<a href="https://drive.google.com/open?id=1dm9-zQcXBaCHK9ghMIYRgAZs_6CjcEPd" target="_blank" style="color: black">Click Here</a> to downlaod apk.</p>
-                   
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-download fa-3x"></i>
-                  <p>Download apk</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/jantv2.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 text-white">
-                  <h3 align="center" >JanTv News channel android application</h3>
-                  <p>I worked as a trainee in Compucom Software Pvt. Ltd. and worked on their live project of JanTv news channel application which fetch and display news from JanTv website. My role was to create layout for different pages to display the news. <a href="https://drive.google.com/open?id=0B7IwXtAhGDlvQWh0cXZqbk5rcDg" target="_blank" style="color: black">Click Here</a> to downlaod apk.</p>
-                   
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/helpr.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 text-white">
-                  <h3 align="center" >Service booking web application</h3>
-                  <p>A Website using Java EE Web Component to provide a platform for customers to book a service with a verified Service man like cleaner, plumber etc. and for the Service man to manage his bookings.</p>
-                   
-          </div>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span style="color: var(--accent-color); font-family: 'Fira Code', monospace; font-size: 1.5rem; margin-right: 10px;">03.</span>Some Things I've Built</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://drive.google.com/open?id=1dm9-zQcXBaCHK9ghMIYRgAZs_6CjcEPd" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Hospital Application</h3>
+                        <p class="project-desc">Appointment Scheduler & Manager application for organizing doctor-patient schedules efficiently. Features include scheduling, managing delays, and priority appointments.</p>
+                    </header>
+                    <ul class="project-tech-list">
+                        <li>Android</li>
+                        <li>Java</li>
+                        <li>XML</li>
+                    </ul>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://drive.google.com/open?id=0B7IwXtAhGDlvQWh0cXZqbk5rcDg" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">JanTv News App</h3>
+                        <p class="project-desc">Android application for JanTv news channel. Fetches and displays news from the website with a custom layout for different pages.</p>
+                    </header>
+                    <ul class="project-tech-list">
+                        <li>Android</li>
+                        <li>API Integration</li>
+                        <li>Layouts</li>
+                    </ul>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://drive.google.com/open?id=1So1_olgJshajXexNa6g7FkuHyIQUIqEN" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Service Booking Web App</h3>
+                        <p class="project-desc">A platform for customers to book verified servicemen (cleaners, plumbers, etc.) and for servicemen to manage bookings.</p>
+                    </header>
+                    <ul class="project-tech-list">
+                        <li>Java EE</li>
+                        <li>Web Components</li>
+                        <li>MySQL</li>
+                    </ul>
+                </article>
+            </div>
         </div>
-      </div>
     </section>
-    
-	
 
     <!-- Contact Section -->
-    <section id="contact" >
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-           
-            <form method="POST" action="https://formspree.io/sarnakunal10@gmail.com">
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Name</label>
-                  <input type="name" class="form-control" name="name" placeholder="Your Name" required>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Email Address</label>
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Message</label>
-                  <textarea class="form-control" rows="4" name="message" style="resize: none;" placeholder="Your Message" required></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <br>
-              <div id="success"></div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-              </div>
-            </form>
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title"><span style="color: var(--accent-color); font-family: 'Fira Code', monospace; font-size: 1.5rem; margin-right: 10px;">04.</span>What's Next?</h2>
+            <h2 class="big-heading" style="font-size: 3rem; margin-bottom: 20px;">Get In Touch</h2>
+            <p style="font-size: 1.2rem; color: var(--text-color);">
+                I am currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open. I'll try my best to get back to you!
+            </p>
+            <a href="mailto:sarnakunal10@gmail.com" class="btn contact-button">Say Hello</a>
 
-          </div>
+            <div style="margin-top: 50px;">
+                <ul style="display: flex; justify-content: center; gap: 20px; font-size: 1.5rem;">
+                    <li><a href="https://github.com/Kunal2605" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/kunal-sarna-89099a118/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://twitter.com/kunal07_sarna" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Jaipur</p>
-          </div>
-          <div class="col-md-6 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/kunal.sarna1" target="_blank">
-                  <i class="fab fa-fw fa-facebook-f"></i>
-                </a>
-              </li>
-              
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/kunal07_sarna" target="_blank">
-                  <i class="fab fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/kunal-sarna-89099a118/" target="_blank">
-                  <i class="fab fa-fw fa-linkedin-in"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/Kunal2605" target="_blank">
-                  <i class="fab fa-fw fa-github"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        
+    <footer>
+        <div class="container">
+            <p>Designed & Built by Kunal Sarna</p>
+            <p>&copy; 2020 - Present</p>
         </div>
-      </div>
     </footer>
 
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; Kunal Sarna 2020</small>
-      </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">A.S.H.A.</h2>
-              <hr class="star-dark mb-5">
-              <p class="mb-5">You can download the apk.</p>
-              <a class="btn btn-primary btn-lg rounded-pill" href="https://drive.google.com/open?id=1dm9-zQcXBaCHK9ghMIYRgAZs_6CjcEPd" target="_blank">
-                <i class="fa fa-download"></i>
-                Download apk</a>
-                <br><br>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">JanTv Android App</h2>
-              <hr class="star-dark mb-5">
-              
-              <p class="mb-5">You can download the app.</p>
-              <a class="btn btn-primary btn-lg rounded-pill" href="https://drive.google.com/open?id=0B7IwXtAhGDlvQWh0cXZqbk5rcDg" target="_blank">
-                <i class="fa fa-download"></i>
-                Download apk</a>
-                <br><br>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Helper</h2>
-              <hr class="star-dark mb-5">
-              <p class="mb-5">Here are some screen shots.</p>
-              <a class="btn btn-primary btn-lg rounded-pill" href="https://drive.google.com/open?id=1So1_olgJshajXexNa6g7FkuHyIQUIqEN" target="_blank">
-                <i class="fa fa-eye"></i>
-                View Screen Shot</a>
-                <br><br>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-
-    
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-
-  </body>
-
+</body>
 </html>
